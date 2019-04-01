@@ -1,0 +1,131 @@
+@import "@material/form-field/mdc-form-field";
+@import "@material/checkbox";
+@import "@material/textfield/mdc-text-field";
+@import "@material/radio/mdc-radio";
+@import "@material/card/mdc-card";
+@import "@material/textfield/helper-text/mdc-text-field-helper-text";
+@import "@material/list/mdc-list";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/menu/mdc-menu";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-display: inherit;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: transparent;
+  }
+  .center {
+  margin: auto;
+  width: 40%;
+  border: 1px solid gray;
+}
+.jumbotron{
+  background-color: black;
+}
+*{
+  background-image: url(images/img03.png);
+  font-family: 'Lato', sans-serif;
+}
+.nav-link{
+  margin-left: 20px;
+  color: black;
+}
+::after a{
+  background-color: transparent;
+}
+a:hover{
+  border-radius: 20px;
+  background-color: green;
+}
+.nav{
+
+}
+@import "@material/textfield/mdc-text-field";
+
+input[type="text"],input[type="password"]{
+  display: inline-block;
+}
+.ag{
+  display: inline-block;
+}
+.row h6{
+  font-family: 'Lato', sans-serif;
+  color: #010999;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0px;
+  background: none;
+  text-align: right;
+  border: none;
+}
+input{
+  border: none;
+}
+.radio{
+  margin-left: 30px;
+  background-color: #010999;
+}
+input[type="date"] {
+  display: -webkit-inline-flex;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+  font-variant-caps: petite-caps;
+  font-variant-numeric: diagonal-fractions;
+  -webkit-padding-start: 20px;
+}
+body{
+  background-image: url("images/img01.png")
+}
+.active{
+  border-radius: 20px;
+  background-color: cadetblue;
+}
+.mdc-card{
+  border-radius: 20px;
+}
+
+/* Virtual Images*/
+body.a-body {
+  height: auto;
+  overflow: auto;
+}
+html.a-html {
+  height: auto;
+  overflow: auto;
+  position: static;
+}
+.vr-background {
+  overflow: hidden;
+}
+.vr-container {
+  height: 100vh;
+}
+.carosil{
+  width: 100vw;
+}
+body{
+   background-image: url('https://source.unsplash.com/random/?city,night') 
+}
+.carousel-slide{
+  
+}
+.carousel{
+  z-index: -1;;
+}
+.carousel .item {
+  position: fixed; 
+   opacity: 0;
+   left:0 !important;
+  width: 100%; height: 100%;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -moz-background-size: cover;
+}
